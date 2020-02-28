@@ -41,7 +41,7 @@ disqus:
 about: >
   # Ben Holmgren
 
-  My name is Ben Holmgren and I made this website. This is me in some short shorts. Enjoy my site. If you don't enjoy my site, feel free to [ravage my github](https://github.com/benholmgren) in revenge.
+  My name is Ben Holmgren and I made this website mostly for fun. This is me on a run at home in paradise valley, MT.
   
   <img src="/assets/img/shortshorts.jpg" alt="short shorts" height="420" width="600">
 
@@ -57,7 +57,7 @@ contact: >
 projects:
 - {name: 'Poking Video', folder: 'proj-2', file: 'projects/proj-2.html'}
 - {name: 'Modest Photo Gallery', folder: 'proj-1', file: 'projects/proj-1.html'}
-- {name: 'An Ode to Carl', folder: 'proj-3', file: 'projects/proj-3.html'}
+- {name: 'Climbing/Running', folder: 'proj-3', file: 'projects/proj-3.html'}
 
 #-------------------------------
 # Contact Section
