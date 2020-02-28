@@ -1,0 +1,69 @@
+#-------------------------------
+# General Site Settings
+
+menu:
+- {name: 'Projects', url: ''}
+- {name: 'About', url: 'pages/about.html'}
+- {name: 'Contact', url: 'pages/contact.html'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Personal portfolio powered by Jekyll and GitHub Pages '
+  rel-author: 'https://plus.google.com/u/0/#'
+  rel-publisher: 'https://plus.google.com/u/0/#'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google-analytics-ua: 'UA-112060364-3'
+
+#-------------------------------
+# Disqus Section
+
+# Change to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: 'thathungrymind'
+
+#-------------------------------
+# About Section
+
+about: >
+  # Ben Holmgren
+
+  My name is Ben Holmgren and I made this website. This is me in some short shorts. Enjoy my site. If you don't enjoy my site, feel free to [ravage my github](https://github.com/benholmgren) in revenge.
+  
+  <img src="/assets/img/shortshorts.jpg" alt="short shorts" height="420" width="600">
+
+
+contact: >
+  # Contact
+
+  You may contact me [through my email](mailto:b.holmgren3@gmail.com) or you may [ravage my github](https://github.com/benholmgren)
+
+#-------------------------------
+# Work Section
+
+projects:
+- {name: 'Poking Video', folder: 'proj-2', file: 'projects/proj-2.html'}
+- {name: 'Modest Photo Gallery', folder: 'proj-1', file: 'projects/proj-1.html'}
+- {name: 'An Ode to Carl', folder: 'proj-3', file: 'projects/proj-3.html'}
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'github', link: 'https://github.com/benholmgren'}
+- {icon: 'envelope', link: 'mailto:b.holmgren3@gmail.com'}
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'

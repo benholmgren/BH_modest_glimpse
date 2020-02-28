@@ -1,61 +1,17 @@
-title: Ben Holmgren, a Modest Glimpse
-email: benjamin.holmgren1@student.montana.edu
-greeting: The Life of Ben Holmgren
-description: > # this means to ignore newlines until another tag
-    A modest glimpse
-github:  benholmgren
-favicon: favicon.png
-navlinks:
-    -
-        text: Home
-        url: /
-        internal: True
-    -
-        text: Sample Page
-        url: /sample
-        internal: True
-    -
-        text: Github
-        url: https://www.github.com/benholmgren
-        internal: False
-
-
 # Build settings
-paginate: 3
-baseurl: "/BH-modest-glimpse" # the subpath of your site, e.g. /blog/
-#baseurl: ""
-url: "https://benholmgren.github.io" # the base hostname & protocol for your site
-highlights: pygments
-permalink: posts/:title/
-include: ["_pages"]
-plugins: [jekyll-paginate]
-markdown: kramdown
-excerpt_separator: "<!--more-->"
-sass:
-    sass_dir: _sass
-    style: compressed
 
-# cover images are expected to be 900px by 240px, or at least 15:4 aspect ratio
-# thumbnails look best with 3:1 or 5:2 ratios in this layout.
-defaults:
-    -
-        scope:
-            path: ""
-        values:
-            layout: "default"
-    -
-        scope:
-            path: ""
-            type: "posts"
-        values:
-            author: "Ben Holmgren"
-            cover: "/media/header.jpg"
-            layout: "post"
-    -
-        scope:
-            path: ""
-            type: "pages"
-        values:
-            author: "Ben Holmgren"
-            cover: "/media/header.jpg"
-            layout: "default"
+markdown: kramdown
+permalink: none
+plugins:             [jekyll-sitemap, jekyll-feed,  jekyll-seo-tag]
+
+port: 4000
+
+sass:
+  sass_dir: assets/css
+  style: :nested
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+
+title:		           "The Life of Ben Holmgren"
+description:	       "A Modest Glimpse"
+author:              "Ben Holmgren"

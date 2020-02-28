@@ -3,15 +3,6 @@ layout: default
 title: Home
 ---
 
-{% assign tmp = "/" | append: site.baseurl %}
-{% if page.url == tmp or page.url == "/" %}
-    <article>
-        <h1 class="Ben Holmgren">About Ezora</h1>
-    </article>
-    <div class="divider"></div>
-    <h1 class="top-text">Most Recent Posts</h1>
-    {% include postlist.html %}
-{% else %}
-    <h1 class="top-text">More Posts</h1>
-    {% include postlist.html %}
-{% endif %}
+{% include thumbnails.html %}
+
+{% include footer.html %}
