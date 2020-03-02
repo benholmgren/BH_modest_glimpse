@@ -4,9 +4,9 @@ title: 'A Few Photos'
 ---
 
 
-![denimbaby]({{ '/assets/img/projects/proj-1/thumb.jpg' | relative_url }})
+![denimbaby]{ '/assets/img/projects/proj-1/thumb.jpg'}
 
-![cirque]({{ '/assets/img/projects/proj-1/cirque.jpg' | relative_url }})
+![cirque]{'/assets/img/projects/proj-1/cirque.jpg'}
 
 ![gallyp]({{ '/assets/img/projects/proj-1/gallyp.jpg' | relative_url }})
 
